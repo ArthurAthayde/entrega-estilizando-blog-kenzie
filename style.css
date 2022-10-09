@@ -15,7 +15,7 @@ body {
     animation: colors 15s ease infinite;
     }
 
- 
+    
 @keyframes colors {
 0% {
     background-position: 0% 50%;
@@ -66,9 +66,31 @@ div{
 div:hover {
 background-color: #FBB454;
 transition: 0.5s;
+}
 
 
 h4 {
     padding: 20px;
 }
 
+input {
+    padding: 3px 10px 3px 20px;
+    margin: 4px;
+    border: transparent 1px;
+    border-radius: 8px;
+
+}
+
+fieldset {
+    background-color: #1CD6CE;
+}
+
+
+button{
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 35px;
+    background-color: #FBB454;
+    border-radius: 8px;
+}
